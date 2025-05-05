@@ -71,14 +71,6 @@ iptables-visualizer/
 └── .gitignore                   # Git ignore file
 ```
 
-### Running Tests
-
-Run the tests using pytest:
-
-```
-pytest
-```
-
 ## Dependencies
 
 ### Backend
