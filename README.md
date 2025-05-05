@@ -13,28 +13,28 @@ A Flask-based web application for visualizing and organizing iptables rules. Thi
 ## Installation
 
 1. Clone the repository:
-   \`\`\`
+   ```
    git clone https://github.com/yourusername/iptables-visualizer.git
    cd iptables-visualizer
-   \`\`\`
+   ```
 
 2. Create a virtual environment and activate it:
-   \`\`\`
+   ```
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
-   \`\`\`
+   ```
 
 3. Install dependencies:
-   \`\`\`
+   ```
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 ## Usage
 
 1. Start the application:
-   \`\`\`
+   ```
    python run.py
-   \`\`\`
+   ```
 
 2. Open your browser and navigate to `http://localhost:5000`
 
@@ -46,7 +46,7 @@ A Flask-based web application for visualizing and organizing iptables rules. Thi
 
 ### Project Structure
 
-\`\`\`
+```
 iptables-visualizer/
 │
 ├── app/
@@ -69,15 +69,15 @@ iptables-visualizer/
 ├── run.py                       # Entry point to run the Flask app
 ├── README.md                    # Project documentation
 └── .gitignore                   # Git ignore file
-\`\`\`
+```
 
 ### Running Tests
 
 Run the tests using pytest:
 
-\`\`\`
+```
 pytest
-\`\`\`
+```
 
 ## Dependencies
 
